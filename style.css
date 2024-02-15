@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(14, 73, 73);
+    color: white;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(23, 16, 30);
+    flex-wrap: wrap;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 24px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover{
+    color: wheat;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+    flex-wrap: wrap;
+}
+.firstsection > div{
+    width: 40%;
+}
+.leftsection{
+    font-size: 2rem;
+}
+.rightsection img{
+    width: 100%;
+}
+.secondsection{
+    background-color: darkcyan;
+    padding: 25px 0;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer{
+    background-color: rgb(49, 32, 66);
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 55px;
+    flex-wrap: wrap;
+}
+.links ul{
+    list-style: none;
+    margin-right: 24px;
+}
+.links ul li a{
+    text-decoration: none;
+    color:white;
+}
+.links ul li a:hover{
+    color: wheat;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+}
+.information ul li a{
+    color:white;
+    text-decoration: none;
+}
+.information ul {
+    list-style: none;
+    margin-right: 24px;
+}
+.information ul li a:hover{
+    color: wheat;
+}
+button{
+    background-color: rgb(49, 32, 66);
+    color: aliceblue;
+    margin: auto;
+    padding: auto;
+}
+button:hover{
+    color: wheat;
+}
